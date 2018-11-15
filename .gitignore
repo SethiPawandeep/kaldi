@@ -77,6 +77,10 @@ GSYMS
 /egs/*/s*/plp
 /egs/*/s*/exp
 /egs/*/s*/data
+*.wav
+*.gz
+*.tar
+*.tgz
 
 # /tools/
 /tools/pocolm/

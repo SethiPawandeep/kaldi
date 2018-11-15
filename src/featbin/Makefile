@@ -4,11 +4,13 @@ EXTRA_CXXFLAGS = -Wno-sign-compare
 include ../kaldi.mk
 
 BINFILES = add-deltas add-deltas-sdc append-post-to-feats \
+           apply-arma apply-ltsv apply-nccf-to-pov apply-vad-merged apply-vad extract-dims \
            append-vector-to-feats apply-cmvn apply-cmvn-sliding compare-feats \
            compose-transforms compute-and-process-kaldi-pitch-feats \
            compute-cmvn-stats compute-cmvn-stats-two-channel \
            compute-fbank-feats compute-kaldi-pitch-feats compute-mfcc-feats \
            compute-plp-feats compute-spectrogram-feats concat-feats copy-feats \
+           compute-dctf-feats compute-gabor-feats compute-gtf-feats \
            copy-feats-to-htk copy-feats-to-sphinx extend-transform-dim \
            extract-feature-segments extract-segments feat-to-dim \
            feat-to-len fmpe-acc-stats fmpe-apply-transform fmpe-est \
